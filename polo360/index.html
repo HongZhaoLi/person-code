@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>polo360</title>
+		<!-- 引入reset.css用来清除浏览器中的默认样式 -->
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<!-- 引入css样式-->
+		<link rel="stylesheet" type="text/css" href="css/page-index.css"/>
+	</head>
+	<body>
+		
+		<!-- 
+			命名的习惯
+				1.驼峰命名法
+					- 首字母小写
+					- 每一个单词的开头大写
+				2.可以使用_或者-来连接单词
+					- 所有的字母都小写
+					- 单词之间使用_或者-连接
+		-->
+		
+		<!-- 创建header的div -->
+		<div class="header w">
+			
+			
+			<!-- 创建导航条 -->
+			<ul class="nav">
+				<li>
+					<a href="#">HOME</a>
+					<p>Back to home</p>
+				</li>
+				
+				<li>
+					<a href="#">PRODUCTS</a>
+					<p>What we have for you</p>
+				</li>
+				
+				<li>
+					<a href="#">SERVICES</a>
+					<p>Things we do</p>
+				</li>
+				
+				<li>
+					<a href="#">BLOG</a>
+					<p>Follow our updates</p>
+				</li>
+				
+				<li>
+					<a href="#">CONTACT</a>
+					<p>Ways to reach us</p>
+				</li>
+			</ul>
+			
+			
+			<!-- 创建一个h1，来放logo -->
+			<h1 class="logo" title="不知道专注于什么的网站">
+				<a href="#">
+					<img src="img/logo.png" alt="polo360-logo"/>
+				</a>
+			</h1>
+		</div>
+		
+		<!-- 创建banner的div -->
+		<div class="banner w">
+			<img src="img/pic/banner01.png" alt="这是一个图片"/>
+			
+			<!-- 导航点 -->
+			<div class="pointer_div clearfix">
+				<a class="pointer" href="#"></a>
+				<a class="pointer active" href="#"></a>
+				<a class="pointer" href="#"></a>
+				<a class="pointer" href="#"></a>
+				<a class="pointer" href="#"></a>
+			</div>
+		</div>
+		
+		<!-- 创建内容的div -->
+		<div class="content w clearfix">
+			<!-- 标题 -->
+			<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h2>
+			<!-- 创建三个内容的div -->
+			<div class="pl">
+				<!-- 小标题 -->	
+				<h3>Perfect Logic</h3>
+				<!-- 副标题 -->
+				<p class="p1">All you want your website to do.</p>
+				<!-- 图片 -->
+				<div class="img_div">
+					<img src="img/pic/p1.jpg" alt="小男孩"/>
+				</div>
+				<!-- 段落 -->
+				<p class="p2">
+					Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt 
+				</p>
+				<!-- 按钮 -->
+				<a class="lm" href="#">Learn More</a>
+			</div>
+			<div class="cs">
+				<!-- 小标题 -->	
+				<h3>Complete Solution</h3>
+				<!-- 副标题 -->
+				<p class="p1">A tool anything and everything you can think</p>
+				<!-- 图片 -->
+				<div class="img_div">
+					<img src="img/pic/p2.jpg" alt="大姑娘"/>
+				</div>
+				<!-- 段落 -->
+				<p class="p2">
+					Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciun tdolore magnam aliquam quaerat voluptatem.
+				</p>
+				<!-- 按钮 -->
+				<a class="lm" href="#">Learn More</a>
+			</div>
+			<div class="uc">
+				<!-- 小标题 -->	
+				<h3>Uber Culture</h3>
+				<!-- 副标题 -->
+				<p class="p1">Fresh. Modern and ready for future</p>
+				<!-- 图片 -->
+				<div class="img_div">
+					<img src="img/pic/p3.jpg" alt="大绿球"/>
+				</div>
+				<!-- 段落 -->
+				<p class="p2">
+					Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+				</p>
+				<!-- 按钮 -->
+				<a class="lm" href="#">Learn More</a>
+			</div>
+		</div>
+		
+		<!-- 创建联系栏 -->
+		<div class="contact w clearfix">
+			
+			<!-- 左边 -->
+			<div class="sc"></div>
+			
+			<!-- 中间 -->
+			<div class="co">
+				<!-- 标题 -->
+				<h3>Contact</h3>
+				<!-- 表单 -->
+				<form action="#">
+					<!-- 两个单行文本框 -->
+					<input type="text" class="text" />
+					<input type="text" class="text" />
+					
+					<!-- 文本域 -->
+					<textarea class="tarea"></textarea>
+					
+					<!-- 提交按钮 -->
+					<button type="button" class="btn">Send it</button>
+				</form>
+				
+			</div>
+			
+			<!-- 右边 -->
+			<div class="nu"></div>
+		</div>
+		
+		
+		
+		<!--[if IE 6]>
+			<script src="js/DD_belatedPNG_0.0.8a-min.js" type="text/javascript" charset="utf-8"></script>
+			<script type="text/javascript">
+				DD_belatedPNG.fix("img,a,h2,div");
+			</script>
+		<![endif]-->
+	</body>
+</html>
